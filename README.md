@@ -44,5 +44,17 @@ labels:
 <b>traefik.http.services.flask.loadbalancer.server.port=5000</b> → Diz ao Traefik que o Flask está rodando na porta 5000.
 
 # 3 - Criar um dashboard do Traefik 
- 
+
+No serviço <b>Traefik</b> dentro do docker-compose.yaml, tem a seguinte linha:
+
+```
+"--api.insecure=true"
+```
+Isso habilita a interface web do Traefik.
+
+E esta linha nos <b>ports</b> expõe o dashboard na porta 8080:
+
+```
+- "8080:8080"
+```
 
