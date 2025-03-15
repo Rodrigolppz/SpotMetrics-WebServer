@@ -7,7 +7,7 @@
 
 1 - Criar um Docker Compose com Traefik configurado para rotear requisições
 para um serviço web simples (por exemplo, um container rodando um servidor
-Python Flask ou um pequeno site estático com Node.js).
+Python Flask ou um pequeno site estático com Node.js)
 
 2 - Configurar um roteamento dinâmico no Traefik (usando labels no docker-
 compose.yml).
@@ -15,3 +15,10 @@ compose.yml).
 3 - Criar um dashboard do Traefik para visualizar os serviços expostos.
 
 4 - Escrever instruções claras sobre como rodar o ambiente.
+
+# 
+
+# 1 - Criar o Docker Compose com Traefik configurado
+
+Para essa primeira etapa criei um arquivo chamado docker-compose.yaml, dentro desse arquivo coloquei todas as configurações necessárias de acordo com o que o desafio pede.
+
