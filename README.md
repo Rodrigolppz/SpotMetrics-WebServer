@@ -20,5 +20,7 @@ compose.yml).
 
 # 1 - Criar o Docker Compose com Traefik configurado
 
-Para essa primeira etapa criei um arquivo chamado docker-compose.yaml, dentro desse arquivo coloquei todas as configurações necessárias de acordo com o que o desafio pede.
+Para essa primeira etapa criei um arquivo chamado [docker-compose.yaml](https://github.com/Rodrigolppz/SpotMetrics-WebServer/blob/main/spot-project/docker-compose.yaml). 
+
+Dentro desse arquivo criei dois containers: Traefik e Flask com Web Server
 
