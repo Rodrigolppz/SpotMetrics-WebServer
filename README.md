@@ -20,7 +20,9 @@ compose.yml).
 
 # 1 - Criar o Docker Compose com Traefik configurado
 
-Para essa primeira etapa criei um arquivo chamado [docker-compose.yaml](https://github.com/Rodrigolppz/SpotMetrics-WebServer/blob/main/spot-project/docker-compose.yaml). 
+Para essa primeira etapa, criei o arquivo [docker-compose.yaml](https://github.com/Rodrigolppz/SpotMetrics-WebServer/blob/main/spot-project/docker-compose.yaml). 
 
-Dentro desse arquivo criei dois containers: Traefik e Flask com Web Server
+Neste arquivo configurei dois containers: um para o Traefik, que atua como proxy reverso e gerenciador de tráfego, e outro para o Flask, que hospeda o Web Server da aplicação.
+
+ 
 
