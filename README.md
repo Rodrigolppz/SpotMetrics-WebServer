@@ -43,6 +43,6 @@ labels:
 
 <b>traefik.http.services.flask.loadbalancer.server.port=5000</b> → Diz ao Traefik que o Flask está rodando na porta 5000.
 
-
+# 3 - Criar um dashboard do Traefik 
  
 
