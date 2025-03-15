@@ -24,5 +24,43 @@ Para essa primeira etapa, criei o arquivo [docker-compose.yaml](https://github.c
 
 Neste arquivo configurei dois containers: um para o Traefik, que atua como proxy reverso e gerenciador de tráfego, e outro para o Flask, que hospeda o Web Server da aplicação.
 
+```
+version: '3.8'
+
+services:
+  traefik:
+    image: traefik:v2.9  # Última versão estável
+    container_name: traefik
+    restart: always
+    ports:
+      - "80:80"      # Porta HTTP
+      - "8080:8080"  # Dashboard do Traefik
+    command:
+      - "--api.insecure=true"  # Ativa o dashboard
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false" # Evita expor todos os containers automaticamente
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"  # Permite monitoramento dos containers
+    networks:
+      - proxy
+
+  web:
+    image: tiangolo/uwsgi-nginx-flask:python3.8  # Imagem com Flask pronto para rodar
+    container_name: web
+    restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.web.rule=Host(`localhost`)" # Roteia para localhost
+      - "traefik.http.services.web.loadbalancer.server.port=80"
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    driver: bridge
+
+```
+
+
  
 
