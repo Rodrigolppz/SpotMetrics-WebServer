@@ -80,3 +80,16 @@ Para testar esse projeto é necessário que esteja utilizando Linux. Vou ensinar
 
 8 - Por fim, basta abrir o seu browser e digitar `localhost:8080`. Na porta 8080 é aonde está o dashboard do traefik mostrando as rotas e detalhes da nossa aplicação. Digitando `localhost:80` será mostrada a seguinte mensagem > "Hello World from Flask in a uWSGI Nginx Docker container with Python 3.8 (default)", indicando que o servidor Flask dentro do contêiner Nginx está ativo e funcionando corretamente.
 
+## Passo a passo LINUX 
+
+1 - Instale docker utilizando o comando `sudo apt install docker-cli` ou `sudo apt install docker`
+
+2 - Instale docker-compose utilizando `sudo apt install docker-compose`
+
+3 - Clone este repositório utilizando `git clone https://github.com/Rodrigolppz/SpotMetrics-WebServer.git`
+
+4 - Mova-se até o diretório onde se encontra o arquivo <b>docker-compose.yaml</b> -> `cd /SpotMetrics-WebServer/spot-project`
+
+5 - Para iniciar a aplicação, digite `sudo docker-compose up -d`
+
+6 - Por fim, basta abrir o seu browser e digitar `localhost:8080`. Na porta 8080 é aonde está o dashboard do traefik mostrando as rotas e detalhes da nossa aplicação. Digitando `localhost:80` será mostrada a seguinte mensagem > "Hello World from Flask in a uWSGI Nginx Docker container with Python 3.8 (default)", indicando que o servidor Flask dentro do contêiner Nginx está ativo e funcionando corretamente.
