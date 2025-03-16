@@ -58,3 +58,5 @@ E esta linha nos <b>ports</b> expõe o dashboard na porta 8080:
 - "8080:8080"
 ```
 
+![imagem](https://github.com/Rodrigolppz/SpotMetrics-WebServer/blob/main/images/dashboard.jpg)
+
