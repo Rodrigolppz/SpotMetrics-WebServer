@@ -90,7 +90,7 @@ Para testar esse projeto é necessário que esteja utilizando Linux. Vou ensinar
 
 5 - Para iniciar a aplicação, digite `sudo docker-compose up -d`
 
-6 - Por fim, basta abrir o seu browser e digitar `localhost:8080`. Na porta 8080 é aonde está o dashboard do traefik mostrando as rotas e detalhes da nossa aplicação. Digitando `localhost:80` será mostrada a seguinte mensagem > "Hello World from Flask in a uWSGI Nginx Docker container with Python 3.8 (default)", indicando que o servidor Flask dentro do contêiner Nginx está ativo e funcionando corretamente.
+6 - Por fim, basta abrir o seu browser e digitar `localhost:8080`. Na porta 8080 é aonde está o dashboard do traefik mostrando as rotas e detalhes da nossa aplicação. Digitando `localhost:80` será mostrada a seguinte mensagem > "Hello World from Flask in a uWSGI Nginx Docker container with Python 3.8 (default)", indicando que o servidor Flask dentro do container Nginx está ativo e funcionando corretamente.
 
 ![imagem](https://github.com/Rodrigolppz/SpotMetrics-WebServer/blob/main/images/webserver.jpg)
 
