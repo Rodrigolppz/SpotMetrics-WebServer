@@ -62,9 +62,21 @@ E esta linha nos <b>ports</b> expõe o dashboard na porta 8080:
 
 # 4 - Instruções sobre como testar na sua máquina
 
-Para testar esse projeto é necessário que esteja utilizando Linux. Pode ser em uma máquina virtual ou através do WSL, no meu caso eu utilizei o WSL para criar o projeto e uma VM para teste.
+Para testar esse projeto é necessário que esteja utilizando Linux. Vou ensinar o passo a passo tanto usando WSL quanto usando Linux como host principal ou VM.
 
 ## Passo a passo WSL
 
-1 - Instale o [Docker desktop](https://www.docker.com/products/docker-desktop/)
+1 - Instale no windows o [Docker desktop](https://www.docker.com/products/docker-desktop/) (o docker desktop já vem com o docker compose instalado)
+
+2 - Após instalado, ative a integração do Docker desktop com o WSL. ( No docker destkop, Engrenagem canto superior direito > Resources > WSL_Integration >  Enable integration with my default WSL distro > apply and restart)
+
+3 - Abra o WSL e digite `docker ps` para testar se o docker está funcionando corretamente.
+
+5 - Clone este repositório utilizando `git clone https://github.com/Rodrigolppz/SpotMetrics-WebServer.git`
+
+6 - Mova-se até o diretório onde se encontra o arquivo <b>docker-compose.yaml</b> -> `cd /SpotMetrics-WebServer/spot-project`
+
+7 - Para iniciar a aplicação, digite `docker-compose up -d`
+
+8 - Por fim, basta abrir o seu browser e digitar `localhost:8080`. Na porta 8080 é aonde está o dashboard do traefik mostrando as rotas e detalhes da nossa aplicação. Digitando `localhost:80` será mostrada a seguinte mensagem > "Hello World from Flask in a uWSGI Nginx Docker container with Python 3.8 (default)", indicando que o servidor Flask dentro do contêiner Nginx está ativo e funcionando corretamente.
 
