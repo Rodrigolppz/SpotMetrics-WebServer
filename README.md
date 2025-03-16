@@ -62,5 +62,9 @@ E esta linha nos <b>ports</b> expõe o dashboard na porta 8080:
 
 # 4 - Instruções sobre como testar na sua máquina
 
+Para testar esse projeto é necessário que esteja utilizando Linux. Pode ser em uma máquina virtual ou através do WSL, no meu caso eu utilizei o WSL para criar o projeto e uma VM para teste.
 
+## Passo a passo WSL
+
+1 - Instale o [Docker desktop](https://www.docker.com/products/docker-desktop/)
 
