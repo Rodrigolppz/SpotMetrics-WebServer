@@ -96,3 +96,17 @@ Para testar esse projeto é necessário que esteja utilizando Linux. Vou ensinar
 
 ![imagem](https://github.com/Rodrigolppz/SpotMetrics-WebServer/blob/main/images/dashboard.jpg)
 
+# 5 - Bônus 
+
+Criei esse bônus apenas para falar sobre como foi fazer esse projeto a partir do meu ponto de vista:
+
+Até então eu nunca tinha mexido e nem visto nada sobre Traefik. Pesquisei, li a documentação e assisti a alguns vídeos. Achei interessante e foi bem legal aprender algo novo, também tive que aprender a diferença entre forward proxy e reverse proxy, o que é bem importante.
+
+Reforcei minha memória em docker e docker-compose, precisei entrar nos containers algumas vezes para ver se eu conseguia fazer uma coisa que eu queria, porém acabei não tendo sucesso. Pesquisei bastante e vi algumas resoluções no stackoverflow, mas ainda assim acabei não conseguindo. Futuramente vou tentar de novo com mais calma.
+
+Gostei bastante do projeto, foi legal de fazer e aprendi coisas bem interessantes, agradeço à SPOT por me proporcionar essa experiência e ficarei feliz de poder explicar com mais detalhes esse processo em uma possível entrevista!
+
+Obrigado e até breve! 
+
+
+
