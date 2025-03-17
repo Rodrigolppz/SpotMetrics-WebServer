@@ -106,7 +106,7 @@ Reforcei minha memória em docker e docker-compose, precisei entrar nos containe
 
 Gostei bastante do projeto, foi legal de fazer e aprendi coisas bem interessantes, agradeço à SPOT por me proporcionar essa experiência e ficarei feliz de poder explicar com mais detalhes esse processo em uma possível entrevista!
 
-Obrigado e até breve! 
+Obrigado e até breve!  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Slightly%20Smiling%20Face.png" alt="Slightly Smiling Face" width="25" height="25" />
 
 
 
